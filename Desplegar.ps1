@@ -13,4 +13,3 @@ if ($LASTEXITCODE -ne 0) {
 }
 Copy-Item $archivoOrigen $archivoDestino -Force -ErrorAction Stop
 Write-Host "Version publicada en el ambiente de pruebas."
-& 'C:\xampp\php\php.exe' -S localhost:8000 -t .\pruebas
